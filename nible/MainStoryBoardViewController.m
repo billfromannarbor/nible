@@ -17,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_mainStoryBoardView setBackgroundColor:[UIColor greenColor]];
+    UIColor *backgroundcolor = [UIColor colorWithRed:15.2 green:13.7 blue:35.5 alpha:16.4];
+    [_mainStoryBoardView setBackgroundColor:backgroundcolor];
 }
 
 - (void)didReceiveMemoryWarning {
