@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainStoryBoardViewController.h
 //  nible
 //
 //  Created by Bill Heitzeg on 1/28/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainStoryBoardViewController : UIViewController
 
 @end
-

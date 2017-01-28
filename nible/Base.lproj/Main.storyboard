@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Story Board View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainStoryBoardViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -31,12 +31,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EXV-yd-EZl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vfd-C6-Ogm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EXV-yd-EZl" secondAttribute="trailing" constant="153" id="c8Z-qS-wwO"/>
-                            <constraint firstItem="EXV-yd-EZl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eFF-Uh-n3A"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EXV-yd-EZl" secondAttribute="bottom" constant="626" id="om9-Bw-h3l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EXV-yd-EZl" secondAttribute="bottom" constant="626" id="vBC-5T-AOQ"/>
                             <constraint firstItem="EXV-yd-EZl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="153" id="wUe-vD-yAc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainStoryBoardView" destination="8bC-Xf-vdC" id="z8e-D6-3Mz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

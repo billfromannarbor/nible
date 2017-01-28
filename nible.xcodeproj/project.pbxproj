@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		CA55790B1E3D4501002FE6CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55790A1E3D4501002FE6CD /* main.m */; };
 		CA55790E1E3D4501002FE6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55790D1E3D4501002FE6CD /* AppDelegate.m */; };
-		CA5579111E3D4501002FE6CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579101E3D4501002FE6CD /* ViewController.m */; };
 		CA5579141E3D4501002FE6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579121E3D4501002FE6CD /* Main.storyboard */; };
 		CA5579161E3D4501002FE6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5579151E3D4501002FE6CD /* Assets.xcassets */; };
 		CA5579191E3D4501002FE6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579171E3D4501002FE6CD /* LaunchScreen.storyboard */; };
 		CA5579241E3D4501002FE6CD /* nibleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579231E3D4501002FE6CD /* nibleTests.m */; };
 		CA55792F1E3D4501002FE6CD /* nibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55792E1E3D4501002FE6CD /* nibleUITests.m */; };
+		CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		CA55790A1E3D4501002FE6CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA55790C1E3D4501002FE6CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA55790D1E3D4501002FE6CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA55790F1E3D4501002FE6CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA5579101E3D4501002FE6CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA5579131E3D4501002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5579151E3D4501002FE6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5579181E3D4501002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		CA55792A1E3D4501002FE6CD /* nibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nibleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA55792E1E3D4501002FE6CD /* nibleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nibleUITests.m; sourceTree = "<group>"; };
 		CA5579301E3D4501002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55793C1E3D4D10002FE6CD /* MainStoryBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStoryBoardViewController.h; sourceTree = "<group>"; };
+		CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStoryBoardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +103,13 @@
 			children = (
 				CA55790C1E3D4501002FE6CD /* AppDelegate.h */,
 				CA55790D1E3D4501002FE6CD /* AppDelegate.m */,
-				CA55790F1E3D4501002FE6CD /* ViewController.h */,
-				CA5579101E3D4501002FE6CD /* ViewController.m */,
 				CA5579121E3D4501002FE6CD /* Main.storyboard */,
 				CA5579151E3D4501002FE6CD /* Assets.xcassets */,
 				CA5579171E3D4501002FE6CD /* LaunchScreen.storyboard */,
 				CA55791A1E3D4501002FE6CD /* Info.plist */,
 				CA5579091E3D4501002FE6CD /* Supporting Files */,
+				CA55793C1E3D4D10002FE6CD /* MainStoryBoardViewController.h */,
+				CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */,
 			);
 			path = nible;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5579111E3D4501002FE6CD /* ViewController.m in Sources */,
+				CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */,
 				CA55790E1E3D4501002FE6CD /* AppDelegate.m in Sources */,
 				CA55790B1E3D4501002FE6CD /* main.m in Sources */,
 			);
