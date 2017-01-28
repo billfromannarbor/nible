@@ -19,6 +19,10 @@
     [super viewDidLoad];
     UIColor *backgroundcolor = [UIColor colorWithRed:15.2 green:13.7 blue:35.5 alpha:16.4];
     [_mainStoryBoardView setBackgroundColor:backgroundcolor];
+    UIButton *customButton = [[UIButton alloc] init];
+    [customButton setTitle:@"Custom Button" forState:UIControlStateNormal];
+    
+    [_mainStoryBoardView addSubview:customButton];
 }
 
 - (void)didReceiveMemoryWarning {
