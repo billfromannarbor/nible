@@ -10,19 +10,33 @@
 
 @interface MainStoryBoardViewController ()
 @property (strong, nonatomic) IBOutlet UIView *mainStoryBoardView;
+@property (weak, nonatomic) IBOutlet UIView *customView;
 
 @end
 
 @implementation MainStoryBoardViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    UIColor *backgroundcolor = [UIColor colorWithRed:15.2 green:13.7 blue:35.5 alpha:16.4];
+
+    UIColor *backgroundcolor = [UIColor colorWithRed:.2 green:.7 blue:.5 alpha:.4];
     [_mainStoryBoardView setBackgroundColor:backgroundcolor];
-    UIButton *customButton = [[UIButton alloc] init];
-    [customButton setTitle:@"Custom Button" forState:UIControlStateNormal];
     
-    [_mainStoryBoardView addSubview:customButton];
+    CGRect buttonRect = CGRectMake(10, 10, 200, 40);
+    UIButton *customButton = [[UIButton alloc] initWithFrame:buttonRect];
+    [_customView addSubview:customButton];
+    [customButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [customButton setTitle:@"Custom Button" forState:UIControlStateNormal];
+    //[customButton setTitle:@"Custom Button" forState:UIControlStateNormal];
+    //[customButton setEnabled:true];
+
+
+    //customLabel.backgroundColor = [UIColor colorWithRed:.2 green:.7 blue:.5 alpha:.4];
+    CGRect  labelRect = CGRectMake(10, 70, 200, 40);
+    UILabel* customLabel = [[UILabel alloc] initWithFrame:labelRect];
+    [_customView addSubview:customLabel];
+    customLabel.text = @"Custom label";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,14 +44,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

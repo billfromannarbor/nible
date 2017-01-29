@@ -28,21 +28,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5t-79-KP8" userLabel="Custom View">
+                                <rect key="frame" x="67" y="41" width="240" height="157"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0E-JL-MlL" userLabel="XCodeButton">
+                                <rect key="frame" x="139.5" y="198" width="96" height="30"/>
+                                <state key="normal" title="XCode Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EXV-yd-EZl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vfd-C6-Ogm"/>
+                            <constraint firstItem="r5t-79-KP8" firstAttribute="top" secondItem="EXV-yd-EZl" secondAttribute="bottom" id="Xes-0O-p59"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r5t-79-KP8" secondAttribute="trailing" constant="52" id="Y94-fZ-Edz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EXV-yd-EZl" secondAttribute="trailing" constant="153" id="c8Z-qS-wwO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="r5t-79-KP8" secondAttribute="bottom" constant="469" id="dSo-9S-dlw"/>
+                            <constraint firstItem="G0E-JL-MlL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e5L-Yx-3vt"/>
+                            <constraint firstItem="r5t-79-KP8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="gC6-Eb-Fxj"/>
+                            <constraint firstItem="G0E-JL-MlL" firstAttribute="top" secondItem="r5t-79-KP8" secondAttribute="bottom" id="rc2-t7-0KK"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EXV-yd-EZl" secondAttribute="bottom" constant="626" id="vBC-5T-AOQ"/>
                             <constraint firstItem="EXV-yd-EZl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="153" id="wUe-vD-yAc"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="customView" destination="r5t-79-KP8" id="SiF-eF-nQX"/>
                         <outlet property="mainStoryBoardView" destination="8bC-Xf-vdC" id="z8e-D6-3Mz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>
