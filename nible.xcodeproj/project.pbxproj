@@ -15,8 +15,9 @@
 		CA55792F1E3D4501002FE6CD /* nibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55792E1E3D4501002FE6CD /* nibleUITests.m */; };
 		CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */; };
 		CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55794E1E3E7A36002FE6CD /* RainbowControl.m */; };
-		CA5579511E3ED02C002FE6CD /* Backscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA5579501E3ED02C002FE6CD /* Backscreen.xib */; };
+		CA5579511E3ED02C002FE6CD /* RainbowControlAsNibViewClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA5579501E3ED02C002FE6CD /* RainbowControlAsNibViewClass.xib */; };
 		FE4AE87C1E3FA60B0084B6CE /* PondControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE87B1E3FA60B0084B6CE /* PondControl.m */; };
+		FE4AE87E1E3FA9F60084B6CE /* PondControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE87D1E3FA9F60084B6CE /* PondControl.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +55,10 @@
 		CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStoryBoardViewController.m; sourceTree = "<group>"; };
 		CA55794D1E3E7A36002FE6CD /* RainbowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowControl.h; sourceTree = "<group>"; };
 		CA55794E1E3E7A36002FE6CD /* RainbowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowControl.m; sourceTree = "<group>"; };
-		CA5579501E3ED02C002FE6CD /* Backscreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Backscreen.xib; sourceTree = "<group>"; };
+		CA5579501E3ED02C002FE6CD /* RainbowControlAsNibViewClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RainbowControlAsNibViewClass.xib; sourceTree = "<group>"; };
 		FE4AE87A1E3FA60B0084B6CE /* PondControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PondControl.h; sourceTree = "<group>"; };
 		FE4AE87B1E3FA60B0084B6CE /* PondControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PondControl.m; sourceTree = "<group>"; };
+		FE4AE87D1E3FA9F60084B6CE /* PondControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PondControl.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,9 +150,10 @@
 			children = (
 				CA55794D1E3E7A36002FE6CD /* RainbowControl.h */,
 				CA55794E1E3E7A36002FE6CD /* RainbowControl.m */,
-				CA5579501E3ED02C002FE6CD /* Backscreen.xib */,
+				CA5579501E3ED02C002FE6CD /* RainbowControlAsNibViewClass.xib */,
 				FE4AE87A1E3FA60B0084B6CE /* PondControl.h */,
 				FE4AE87B1E3FA60B0084B6CE /* PondControl.m */,
+				FE4AE87D1E3FA9F60084B6CE /* PondControl.xib */,
 			);
 			name = "Hand Made Controls";
 			sourceTree = "<group>";
@@ -276,7 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5579161E3D4501002FE6CD /* Assets.xcassets in Resources */,
-				CA5579511E3ED02C002FE6CD /* Backscreen.xib in Resources */,
+				CA5579511E3ED02C002FE6CD /* RainbowControlAsNibViewClass.xib in Resources */,
+				FE4AE87E1E3FA9F60084B6CE /* PondControl.xib in Resources */,
 				CA5579141E3D4501002FE6CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

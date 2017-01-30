@@ -8,13 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
 @interface PondControl : UIView
-
-//Water Color
-@property (nonatomic, copy) IBInspectable UIColor * waterColor;
-
-//Wave Frequency
-@property (nonatomic, assign) IBInspectable CGFloat waveFrequency;
 
 @end

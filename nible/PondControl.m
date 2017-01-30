@@ -10,52 +10,19 @@
 
 @implementation PondControl
 
-- (void)setupDefaults {
-    self.waterColor = [UIColor blueColor];
-    self.waveFrequency = 2.0f;
-}
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
-    if (self) {
-        [self setupDefaults];
-    }
     return self;
-}
-
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    [self updateLayerProperties];
 }
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
     if (self) {
-        [self setupDefaults];
+        [self addSubview:[[[NSBundle mainBundle] loadNibNamed:@"PondControl" owner:self options:nil] objectAtIndex:0]];
     }
     return self;
 }
-
-- (void)setWaterColor:(UIColor *)waterColor {
-    if (waterColor != _waterColor) {
-        _waterColor = waterColor;
-        [self updateLayerProperties];
-    }
-}
-
-- (void)setWaveFrequency:(CGFloat)waveFrequency {
-    if (waveFrequency != _waveFrequency) {
-        _waveFrequency = waveFrequency;
-        [self updateLayerProperties];
-    }
-}
-
-- (void)updateLayerProperties {
-    [self setBackgroundColor:_waterColor];
-}
-
-
 
 @end
