@@ -4,7 +4,8 @@
 //
 //  Created by Bill Heitzeg on 1/29/17.
 //  Copyright © 2017 Bill Heitzeg. All rights reserved.
-//
+//Using examples from https://github.com/kharrison/CodeExamples.git
+
 
 #import "RainbowControl.h"
 
