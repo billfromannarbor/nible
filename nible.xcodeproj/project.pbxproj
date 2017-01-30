@@ -11,12 +11,12 @@
 		CA55790E1E3D4501002FE6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55790D1E3D4501002FE6CD /* AppDelegate.m */; };
 		CA5579141E3D4501002FE6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579121E3D4501002FE6CD /* Main.storyboard */; };
 		CA5579161E3D4501002FE6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5579151E3D4501002FE6CD /* Assets.xcassets */; };
-		CA5579191E3D4501002FE6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579171E3D4501002FE6CD /* LaunchScreen.storyboard */; };
 		CA5579241E3D4501002FE6CD /* nibleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579231E3D4501002FE6CD /* nibleTests.m */; };
 		CA55792F1E3D4501002FE6CD /* nibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55792E1E3D4501002FE6CD /* nibleUITests.m */; };
 		CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */; };
 		CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55794E1E3E7A36002FE6CD /* RainbowControl.m */; };
 		CA5579511E3ED02C002FE6CD /* Backscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA5579501E3ED02C002FE6CD /* Backscreen.xib */; };
+		FE4AE87C1E3FA60B0084B6CE /* PondControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE87B1E3FA60B0084B6CE /* PondControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		CA55790D1E3D4501002FE6CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CA5579131E3D4501002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5579151E3D4501002FE6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA5579181E3D4501002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA55791A1E3D4501002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA55791F1E3D4501002FE6CD /* nibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5579231E3D4501002FE6CD /* nibleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nibleTests.m; sourceTree = "<group>"; };
@@ -56,6 +55,8 @@
 		CA55794D1E3E7A36002FE6CD /* RainbowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowControl.h; sourceTree = "<group>"; };
 		CA55794E1E3E7A36002FE6CD /* RainbowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowControl.m; sourceTree = "<group>"; };
 		CA5579501E3ED02C002FE6CD /* Backscreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Backscreen.xib; sourceTree = "<group>"; };
+		FE4AE87A1E3FA60B0084B6CE /* PondControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PondControl.h; sourceTree = "<group>"; };
+		FE4AE87B1E3FA60B0084B6CE /* PondControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PondControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,8 @@
 				CA55794D1E3E7A36002FE6CD /* RainbowControl.h */,
 				CA55794E1E3E7A36002FE6CD /* RainbowControl.m */,
 				CA5579501E3ED02C002FE6CD /* Backscreen.xib */,
+				FE4AE87A1E3FA60B0084B6CE /* PondControl.h */,
+				FE4AE87B1E3FA60B0084B6CE /* PondControl.m */,
 			);
 			name = "Hand Made Controls";
 			sourceTree = "<group>";
@@ -156,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				CA5579121E3D4501002FE6CD /* Main.storyboard */,
-				CA5579171E3D4501002FE6CD /* LaunchScreen.storyboard */,
 				CA5579151E3D4501002FE6CD /* Assets.xcassets */,
 				CA55793C1E3D4D10002FE6CD /* MainStoryBoardViewController.h */,
 				CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */,
@@ -273,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5579191E3D4501002FE6CD /* LaunchScreen.storyboard in Resources */,
 				CA5579161E3D4501002FE6CD /* Assets.xcassets in Resources */,
 				CA5579511E3ED02C002FE6CD /* Backscreen.xib in Resources */,
 				CA5579141E3D4501002FE6CD /* Main.storyboard in Resources */,
@@ -305,6 +306,7 @@
 				CA55790E1E3D4501002FE6CD /* AppDelegate.m in Sources */,
 				CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */,
 				CA55790B1E3D4501002FE6CD /* main.m in Sources */,
+				FE4AE87C1E3FA60B0084B6CE /* PondControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,14 +348,6 @@
 				CA5579131E3D4501002FE6CD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA5579171E3D4501002FE6CD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA5579181E3D4501002FE6CD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
