@@ -16,6 +16,7 @@
 		CA55792F1E3D4501002FE6CD /* nibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55792E1E3D4501002FE6CD /* nibleUITests.m */; };
 		CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */; };
 		CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55794E1E3E7A36002FE6CD /* RainbowControl.m */; };
+		CA5579511E3ED02C002FE6CD /* RainbowControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA5579501E3ED02C002FE6CD /* RainbowControl.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStoryBoardViewController.m; sourceTree = "<group>"; };
 		CA55794D1E3E7A36002FE6CD /* RainbowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowControl.h; sourceTree = "<group>"; };
 		CA55794E1E3E7A36002FE6CD /* RainbowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowControl.m; sourceTree = "<group>"; };
+		CA5579501E3ED02C002FE6CD /* RainbowControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RainbowControl.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				CA55794D1E3E7A36002FE6CD /* RainbowControl.h */,
 				CA55794E1E3E7A36002FE6CD /* RainbowControl.m */,
+				CA5579501E3ED02C002FE6CD /* RainbowControl.xib */,
 			);
 			name = "Hand Made Controls";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				CA5579191E3D4501002FE6CD /* LaunchScreen.storyboard in Resources */,
 				CA5579161E3D4501002FE6CD /* Assets.xcassets in Resources */,
+				CA5579511E3ED02C002FE6CD /* RainbowControl.xib in Resources */,
 				CA5579141E3D4501002FE6CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
