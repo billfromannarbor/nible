@@ -15,6 +15,7 @@
 		CA5579241E3D4501002FE6CD /* nibleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579231E3D4501002FE6CD /* nibleTests.m */; };
 		CA55792F1E3D4501002FE6CD /* nibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55792E1E3D4501002FE6CD /* nibleUITests.m */; };
 		CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */; };
+		CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55794E1E3E7A36002FE6CD /* RainbowControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CA5579301E3D4501002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA55793C1E3D4D10002FE6CD /* MainStoryBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainStoryBoardViewController.h; sourceTree = "<group>"; };
 		CA55793D1E3D4D10002FE6CD /* MainStoryBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainStoryBoardViewController.m; sourceTree = "<group>"; };
+		CA55794D1E3E7A36002FE6CD /* RainbowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowControl.h; sourceTree = "<group>"; };
+		CA55794E1E3E7A36002FE6CD /* RainbowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CA5579081E3D4501002FE6CD /* nible */ = {
 			isa = PBXGroup;
 			children = (
+				CA55794C1E3E78FE002FE6CD /* Hand Made Controls */,
 				CA55790C1E3D4501002FE6CD /* AppDelegate.h */,
 				CA55790D1E3D4501002FE6CD /* AppDelegate.m */,
 				CA5579121E3D4501002FE6CD /* Main.storyboard */,
@@ -138,6 +142,15 @@
 				CA5579301E3D4501002FE6CD /* Info.plist */,
 			);
 			path = nibleUITests;
+			sourceTree = "<group>";
+		};
+		CA55794C1E3E78FE002FE6CD /* Hand Made Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CA55794D1E3E7A36002FE6CD /* RainbowControl.h */,
+				CA55794E1E3E7A36002FE6CD /* RainbowControl.m */,
+			);
+			name = "Hand Made Controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			files = (
 				CA55793E1E3D4D10002FE6CD /* MainStoryBoardViewController.m in Sources */,
 				CA55790E1E3D4501002FE6CD /* AppDelegate.m in Sources */,
+				CA55794F1E3E7A36002FE6CD /* RainbowControl.m in Sources */,
 				CA55790B1E3D4501002FE6CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +530,7 @@
 				CA5579351E3D4501002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5579361E3D4501002FE6CD /* Build configuration list for PBXNativeTarget "nibleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				CA5579381E3D4501002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5579391E3D4501002FE6CD /* Build configuration list for PBXNativeTarget "nibleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				CA55793B1E3D4501002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
